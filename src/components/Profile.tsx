@@ -25,7 +25,6 @@
 //           このサイトの使い方
 //         </Text> */}
 //       </Box>
-
 //       {/* <Box alignSelf='center' px='32' py='16'>
 //         <Text color='gray.700' p='4' fontWeight='bold' fontSize='xl'>
 //           1. 新規登録及びログインしよう
