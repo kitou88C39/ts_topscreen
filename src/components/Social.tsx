@@ -17,21 +17,6 @@ const Profile = () => {
         w='100%'
         maxWidth={{ base: '100vh', md: '130vh', lg: '130vh', xl: '130vh' }}
       >
-        {/* <Box alignSelf='center' px='32' py='16'>
-        <Heading fontWeight='extrabold' color='green.500' size='2xl'>
-          建物の情報を共有しよう　!
-        </Heading>
-        <Heading fontWeight='extrabold' color='green.500' size='2xl'>
-          建物内の入居者をつなぐ情報共有プラットホーム
-        </Heading>
-        <Text fontSize='3xl' color='gray.900'>
-          建物情報共有アプリ『kairanban』
-        </Text>
-        <Text fontSize='3xl' color='gray.900'>
-          このサイトの使い方
-        </Text>
-      </Box> */}
-
         <Box alignSelf='start' px='1' py='32'>
           <Text color='gray.700' p='8' fontWeight='bold' fontSize='md'>
             1. 新規登録及びログインしよう

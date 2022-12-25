@@ -42,7 +42,6 @@
 
 // export default Profile;
 import {
-  Button,
   Flex,
   Heading,
   Stack,
@@ -61,7 +60,7 @@ const Profile = () => {
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={6} w={'full'} maxW={'lg'}>
           <Heading
-            color='gray.100'
+            color='white'
             fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
           >
             <Text
@@ -82,21 +81,21 @@ const Profile = () => {
             </Text>
             <br />
             <Text
-              color={'gray.100'}
+              color={'white'}
               as={'span'}
               fontSize={{ base: 'md', lg: 'lg' }}
             >
               建物内の情報と入居者をつなぐ情報共有プラットホーム
             </Text>
           </Heading>
-          <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.100'}>
+          <Text fontSize={{ base: 'md', lg: 'lg' }} color={'white'}>
             A kairanban is a circular that is designed to be read by residents
             of a particular area of a municipality to communicate
             localinformation. The municipality prepares the circular, and
             information is transmitted by circulating the circular among local
             residents.
           </Text>
-          <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+          {/* <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Button
               rounded={'full'}
               bg={'blue.400'}
@@ -108,7 +107,7 @@ const Profile = () => {
               Create Project
             </Button>
             <Button rounded={'full'}>How It Works</Button>
-          </Stack>
+          </Stack> */}
         </Stack>
       </Flex>
       <Flex flex={1}>
